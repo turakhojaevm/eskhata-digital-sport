@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DsHeaderComponent } from './ds-header.component';
+import { FooterComponent } from '././footer.component';
 
-describe('DsHeaderComponent', () => {
-  let component: DsHeaderComponent;
-  let fixture: ComponentFixture<DsHeaderComponent>;
+describe('FooterComponent', () => {
+  let component: FooterComponent;
+  let fixture: ComponentFixture<FooterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DsHeaderComponent]
+      imports: [FooterComponent]
     })
     .compileComponents();
-    
-    fixture = TestBed.createComponent(DsHeaderComponent);
+
+    fixture = TestBed.createComponent(FooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

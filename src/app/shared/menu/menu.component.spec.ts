@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DsFooterComponent } from './ds-footer.component';
+import { MenuComponent } from './menu.component';
 
-describe('DsFooterComponent', () => {
-  let component: DsFooterComponent;
-  let fixture: ComponentFixture<DsFooterComponent>;
+describe('MenuComponent', () => {
+  let component: MenuComponent;
+  let fixture: ComponentFixture<MenuComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DsFooterComponent]
+      imports: [MenuComponent]
     })
     .compileComponents();
-    
-    fixture = TestBed.createComponent(DsFooterComponent);
+
+    fixture = TestBed.createComponent(MenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

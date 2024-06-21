@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-results',
+  selector: 'ds-results',
   standalone: true,
   imports: [],
   templateUrl: './results.component.html',

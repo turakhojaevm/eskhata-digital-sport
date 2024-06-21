@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-tournament-view',
+  selector: 'ds-tournament-view',
   standalone: true,
   imports: [],
   templateUrl: './tournament-view.component.html',

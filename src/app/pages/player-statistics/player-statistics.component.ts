@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-player-statistics',
+  selector: 'ds-player-statistics',
   standalone: true,
   imports: [],
   templateUrl: './player-statistics.component.html',
