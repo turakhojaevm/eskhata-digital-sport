@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, input} from '@angular/core';
 
 @Component({
   selector: 'ds-img-article',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './img-article.component.scss'
 })
 export class ImgArticleComponent {
+
+  articleImageUrl = input.required<string>();
 
 }

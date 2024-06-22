@@ -11,7 +11,7 @@ export const routes: Routes = [
   },
   {
     path: 'tournament',
-    loadComponent: (): Promise<any> =>
+    loadChildren: (): Promise<any> =>
       import('./pages/tournament/tournament.routing').then(m => m.TOURNAMENT_ROUTING),
     title: 'Турнир'
   },
