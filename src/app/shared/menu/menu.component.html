@@ -1,1 +1,35 @@
-<p>ds-menu works!</p>
+<div class="menu mt-10 mb-10">
+  <ul class="flex menu-list">
+    <li class="mr-5 menu-list-items">
+      <select [id]="'countries'"
+              class="years p-2.1 border rounded outline-none">
+        <option selected value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+      </select>
+    </li>
+    <li class="mr-5 menu-list-items">
+      <a class="menu-list-link inline-block border border-white rounded p-2"
+         [routerLink]="'tournament'"
+         [routerLinkActive]="'active'">Турнир</a>
+    </li>
+    <li class="mr-5 menu-list-items">
+      <a class="menu-list-link inline-block border border-white rounded p-2"
+         [routerLink]="'schedule'"
+         [routerLinkActive]="'active'">Расписание</a>
+    </li>
+    <li class="mr-5 menu-list-items">
+      <a class="menu-list-link inline-block border border-white rounded p-2"
+         [routerLink]="'results'"
+         [routerLinkActive]="'active'">Результаты</a>
+    </li>
+    <li class="mr-5 menu-list-items">
+      <a class="menu-list-link inline-block border border-white rounded p-2"
+         [routerLink]="'player-statistics'"
+         [routerLinkActive]="'active'">Статистика игроков</a>
+    </li>
+  </ul>
+
+</div>
+
+

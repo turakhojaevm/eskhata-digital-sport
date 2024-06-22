@@ -1,0 +1,20 @@
+@import '../../../assets/styles/variables';
+
+.years,
+.menu-list-link {
+  border-color: $blue800;
+  background-color: $blue800;
+  color: $translucentWhite;
+}
+
+.years option {
+  color: $translucentWhite;
+}
+
+.active {
+  color: $white;
+}
+
+.p-2\.1 {
+  padding: 0.52rem;
+}
