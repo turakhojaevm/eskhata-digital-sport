@@ -1,0 +1,19 @@
+@import '../../../assets/styles/variables';
+
+.matches-item {
+  background-color: $violet700;
+}
+
+.matches-tour-date {
+  background: -webkit-linear-gradient($blue100, $blue400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.w-1\/7 {
+  width: 15%;
+}
+
+.w-6\/7 {
+  width: 85%;
+}

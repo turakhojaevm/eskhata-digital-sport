@@ -1,1 +1,107 @@
-<p>schedule works!</p>
+<div class="matches">
+  <h4 class="matches-title text-white text-2xl">Предстоящие матчи</h4>
+  @if (matches.length) {
+    <div class="matches-list mt-5 grid gap-8 grid-cols-2">
+      <div class="matches-item p-5 rounded-2xl flex items-center">
+        <div class="matches-tour w-1/7">
+          <h5 class="matches-tour-date font-bold text-lg">
+            3 тур <br>
+            14.06
+          </h5>
+        </div>
+        <div class="matches-upcoming w-6/7">
+          <div class="matches-team flex items-center py-2 ">
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Онлайн</div>
+              <div class="matches-team-shortname font-medium text-lg">EО</div>
+            </div>
+            <div class="font-normal text-lg text-white w-10 text-center">&#8208;</div>
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Онлайн (Бэкэнд)</div>
+              <div class="matches-team-shortname font-medium text-lg">EOB</div>
+            </div>
+          </div>
+          <div class="matches-team flex items-center py-2">
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Сервис</div>
+              <div class="matches-team-shortname font-medium text-lg">ES</div>
+            </div>
+            <div class="font-normal text-lg text-white w-10 text-center">&#8208;</div>
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Мерчант</div>
+              <div class="matches-team-shortname font-medium text-lg">EМ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="matches-item p-5 rounded-2xl flex items-center">
+        <div class="matches-tour w-1/7">
+          <h5 class="matches-tour-date font-bold text-lg">
+            4 тур <br>
+            14.06
+          </h5>
+        </div>
+        <div class="matches-upcoming w-6/7">
+          <div class="matches-team flex items-center py-2 ">
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Бизнес</div>
+              <div class="matches-team-shortname font-medium text-lg">EB</div>
+            </div>
+            <div class="font-normal text-lg text-white w-10 text-center">&#8208;</div>
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Мерчант</div>
+              <div class="matches-team-shortname font-medium text-lg">EM</div>
+            </div>
+          </div>
+          <div class="matches-team flex items-center py-2">
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Онлайн (Бэкэнд)</div>
+              <div class="matches-team-shortname font-medium text-lg">EOB</div>
+            </div>
+            <div class="font-normal text-lg text-white w-10 text-center">&#8208;</div>
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Сервис</div>
+              <div class="matches-team-shortname font-medium text-lg">ES</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="matches-item p-5 rounded-2xl flex items-center">
+        <div class="matches-tour w-1/7">
+          <h5 class="matches-tour-date font-bold text-lg">
+            5 тур <br>
+            14.06
+          </h5>
+        </div>
+        <div class="matches-upcoming w-6/7">
+          <div class="matches-team flex items-center py-2 ">
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Бизнес</div>
+              <div class="matches-team-shortname font-medium text-lg">EB</div>
+            </div>
+            <div class="font-normal text-lg text-white w-10 text-center">&#8208;</div>
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Мерчант</div>
+              <div class="matches-team-shortname font-medium text-lg">EM</div>
+            </div>
+          </div>
+          <div class="matches-team flex items-center py-2">
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Онлайн (Бэкэнд)</div>
+              <div class="matches-team-shortname font-medium text-lg">EOB</div>
+            </div>
+            <div class="font-normal text-lg text-white w-10 text-center">&#8208;</div>
+            <div class="matches-team-info w-6/12 text-white flex items-center">
+              <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Сервис</div>
+              <div class="matches-team-shortname font-medium text-lg">ES</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  } @else {
+    <div class="matches-empty text-center pt-10">
+      <h1 class="text-white text-5xl font-bold">Нет предстоящих матчей</h1>
+    </div>
+  }
+</div>
