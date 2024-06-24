@@ -1,0 +1,41 @@
+@import '../../../../assets/styles/variables';
+
+.accordion {
+  background-color: $violet700;
+
+  &-head {
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+
+    .icon {
+      background-image: url('../../../../assets/images/accordion-arrow-top.svg');
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 32px;
+      transition: all 250ms ease-in-out;
+
+      &.close {
+        background-image: url('../../../../assets/images/accordion-arrow-bottom.svg');
+        transition: all 250ms ease-in-out;
+      }
+    }
+  }
+
+  &-body {
+    padding: 0 1rem 1.5rem 1rem;
+  }
+}
+
+.matches-tour-date {
+  background: -webkit-linear-gradient($blue100, $blue400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.w-1\/7 {
+  width: 15%;
+}
+
+.w-6\/7 {
+  width: 85%;
+}
