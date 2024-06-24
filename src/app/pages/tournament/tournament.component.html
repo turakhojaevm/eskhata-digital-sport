@@ -1,0 +1,261 @@
+<div class="tournament grid grid-cols-2 gap-5">
+  <div class="">
+    <div class="tournament-results">
+      <table class="tournament-results-table w-full text-white">
+        <thead class="py-2">
+        <tr>
+          <th></th>
+          <th>И</th>
+          <th>В</th>
+          <th>Н</th>
+          <th>П</th>
+          <th>З</th>
+          <th>ПМ</th>
+          <th>РМ</th>
+          <th>О</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="first-place flex items-center justify-between">ES Эсхата Сервис <span>ES</span></td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>12</td>
+          <td>5</td>
+          <td>7</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td class="flex items-center justify-between">Эсхата Онлайн (Бэкэнд) <span>EOB</span></td>
+          <td>3</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>9</td>
+          <td>8</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td class="flex items-center justify-between">EM Эсхата Мерчант <span>EM</span></td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>2</td>
+          <td>4</td>
+          <td>6</td>
+          <td>-2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td class="flex items-center justify-between">Эсхата Бизнес <span>EB</span></td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>2</td>
+          <td>4</td>
+          <td>-2</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td class="flex items-center justify-between">Эсхата Онлайн (Фронт) <span>EOF</span></td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>3</td>
+          <td>7</td>
+          <td>-4</td>
+          <td>1</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tournament-matches">
+      <h4 class="tournament-matches-title text-white font-medium text-base py-5">Результаты предыдущих матчей</h4>
+      <div class="tournament-matches-team grid grid-cols-2">
+        <div class="tournament-matches-team-info text-white flex items-center justify-between pr-8 border-right">
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">eob</a>
+          <div class="tournament-matches-team-score text-6xl text-center">3</div>
+          <div class="hyphen text-white">&#8208;</div>
+          <div class="tournament-matches-team-score text-6xl text-center">7</div>
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">es</a>
+        </div>
+        <div class="tournament-matches-team-info text-white flex items-center justify-between pl-8">
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">eob</a>
+          <div class="tournament-matches-team-score text-6xl text-center">3</div>
+          <div class="hyphen text-white">&#8208;</div>
+          <div class="tournament-matches-team-score text-6xl text-center">7</div>
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">es</a>
+        </div>
+      </div>
+    </div>
+    <div class="tournament-matches">
+      <h4 class="tournament-matches-title text-white font-medium text-base py-5">Предстоящие матчи</h4>
+      <div class="tournament-matches-team grid grid-cols-2">
+        <div class="tournament-matches-team-info text-white flex items-center justify-between pr-8 border-right">
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">EOF</a>
+          <div class="tournament-matches-info">
+            <div class="tournament-matches-info-date font-normal text-4xl">21.06.2024</div>
+            <div class="tournament-matches-info-location font-normal text-lg">Sartukai Stadium</div>
+          </div>
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">EOB</a>
+        </div>
+        <div class="tournament-matches-team-info text-white flex items-center justify-between pl-8">
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">ES</a>
+          <div class="tournament-matches-info">
+            <div class="tournament-matches-info-date font-normal text-4xl">21.06.2024</div>
+            <div class="tournament-matches-info-location font-normal text-lg">Sartukai Stadium</div>
+          </div>
+          <a class="tournament-matches-team-shortname rounded font-medium text-2xl uppercase text-center cursor-pointer">EM</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-5">
+    <div class="tournament-actives">
+      <div class="tournament-actives-players mb-5">
+        <div class="tournament-actives-header flex items-center">
+          <h4 class="tournament-actives-header-title text-white font-normal	text-base w-10/12">Бомбардиры</h4>
+          <img class="mx-2" [src]="'assets/images/ball.svg'" [alt]="'ball'">
+          <img class="mx-2" [src]="'assets/images/field-icon.svg'" [alt]="'field-icon'">
+        </div>
+        <div class="tournament-actives-body">
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Камол Х.</h4>
+            <span class="mx-3 text-white font-normal text-xs">3</span>
+            <span class="mx-3 text-white font-normal text-xs">2</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Анушервон Н.</h4>
+            <span class="mx-3 text-white font-normal text-xs">2</span>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Сухроб Х.</h4>
+            <span class="mx-3 text-white font-normal text-xs">2</span>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Зарифчон Н.</h4>
+            <span class="mx-3 text-white font-normal text-xs">2</span>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tournament-actives-players mb-5">
+        <div class="tournament-actives-header flex items-center">
+          <h4 class="tournament-actives-header-title text-white font-normal	text-base w-10/12">Ассистенты</h4>
+          <img class="mx-2" [src]="'assets/images/football-sneakers.svg'" [alt]="'football-sneakers'">
+          <img class="mx-2" [src]="'assets/images/field-icon.svg'" [alt]="'field-icon'">
+        </div>
+        <div class="tournament-actives-body">
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Мирзоалишер М.</h4>
+            <span class="mx-3 text-white font-normal text-xs">5</span>
+            <span class="mx-3 text-white font-normal text-xs">2</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Рахимчон С.</h4>
+            <span class="mx-3 text-white font-normal text-xs">2</span>
+            <span class="mx-3 text-white font-normal text-xs">2</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Акмалхуча А.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Абдухамид Р.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tournament-actives-players mb-5">
+        <div class="tournament-actives-header flex items-center">
+          <h4 class="tournament-actives-header-title text-white font-normal	text-base w-10/12">Штрафники</h4>
+          <img class="mx-2" [src]="'assets/images/card-yellow.svg'" [alt]="'card-yellow'">
+          <img class="mx-2" [src]="'assets/images/card-red.svg'" [alt]="'card-red'">
+        </div>
+        <div class="tournament-actives-body">
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Мунирчон О.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+            <span class="mx-3 text-white font-normal text-xs">0</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Дадочон  Н.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+            <span class="mx-3 text-white font-normal text-xs">0</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Мирзоалишер М.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+            <span class="mx-3 text-white font-normal text-xs">0</span>
+          </div>
+          <div class="tournament-actives-items flex items-center">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Зарифчон Н.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+            <span class="mx-3 text-white font-normal text-xs">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tournament-actives-players mb-5">
+        <div class="tournament-actives-header flex items-center">
+          <h4 class="tournament-actives-header-title text-white font-normal	text-base w-10/12">MVP тура</h4>
+        </div>
+        <div class="tournament-actives-body">
+          <div class="tournament-actives-items flex items-center justify-between">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Анушервон Н.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+          </div>
+          <div class="tournament-actives-items flex items-center justify-between">
+            <h4 class="tournament-actives-items-title text-white font-normal	text-base w-10/12">Рахимчон С.</h4>
+            <span class="mx-3 text-white font-normal text-xs">1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tournament-league">
+      <div class="tournament-league-info">
+        <div class="tournament-league-title flex flex-col items-center p-5">
+          <img class="h-12 mb-2" [src]="'assets/images/digital-leagua-icon.svg'" [alt]="'digital-leagua-icon'">
+          <span class="tournament-league-text font-bold text-2xl">Digital League</span>
+        </div>
+        <div class="tournament-league-description px-5">
+          <div class="flex items-center py-2 text-white">
+            <div class="tournament-league-label w-6/12 text-start font-normal	text-sm">Победитель</div>
+            <div class="tournament-league-value w-6/12 text-start font-normal	text-sm">Неизвестно</div>
+          </div>
+          <div class="flex items-center py-2 text-white">
+            <div class="tournament-league-label w-6/12 text-start font-normal	text-sm">Страна</div>
+            <div class="tournament-league-value w-6/12 text-start font-normal	text-sm">Таджикистан</div>
+          </div>
+          <div class="flex items-center py-2 text-white">
+            <div class="tournament-league-label w-6/12 text-start font-normal	text-sm">Дата</div>
+            <div class="tournament-league-value w-6/12 text-start font-normal	text-sm">07.06.2024-05.07.2024</div>
+          </div>
+          <div class="flex items-center py-2 pb-5 text-white">
+            <div class="tournament-league-label w-6/12 text-start font-normal	text-sm">Сыграно</div>
+            <div class="tournament-league-value w-6/12 text-start font-normal	text-sm">4 из 10</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tournament-team py-5">
+        <h4 class="tournament-team-title text-white font-bold text-xl">Сборная 2-го тура</h4>
+
+        <div class="tournament-team-image my-7">
+          <img [src]="'assets/images/national-team.svg'" [alt]="'national-team'">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
