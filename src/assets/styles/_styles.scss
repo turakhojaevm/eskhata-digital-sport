@@ -1,0 +1,27 @@
+@import 'fonts';
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $blue800;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: $translucentWhite;
+}

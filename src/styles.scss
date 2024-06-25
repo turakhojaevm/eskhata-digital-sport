@@ -1,18 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import './assets/styles/variables';
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: $blue800;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: $translucentWhite;
-}
+@import './assets/styles/styles';
