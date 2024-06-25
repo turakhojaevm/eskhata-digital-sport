@@ -4,3 +4,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 670px) {
+  .main {
+    padding: 0 20px;
+  }
+}

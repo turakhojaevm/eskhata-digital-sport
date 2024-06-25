@@ -2,7 +2,7 @@
   <div class="matches accordion rounded-2xl mt-7" [class.active]="item.isActive">
     <div class="accordion-head flex items-center" (click)="item.isActive = !item.isActive">
       <div class="matches-tour w-1/7">
-        <h5 class="matches-tour-date font-bold text-lg">
+        <h5 class="matches-tour-date font-bold md:text-lg">
           2 тур <br>
           14.06.2024
         </h5>
@@ -10,29 +10,29 @@
       <div class="matches-past w-6/7">
         <div class="matches-team flex items-center py-2 ">
           <div class="matches-team-info w-6/12 text-white flex items-center justify-center">
-            <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Онлайн</div>
-            <div class="matches-team-shortname font-medium text-lg">EО</div>
+            <div class="matches-team-name mr-3 font-medium md:text-lg">Эсхата Онлайн</div>
+            <div class="matches-team-shortname font-medium md:text-lg">EО</div>
           </div>
-          <div class="font-bold text-2xl text-white w-14 text-center">1 &#8208; 0</div>
+          <div class="font-bold md:text-2xl text-white w-14 text-center">1 &#8208; 0</div>
           <div class="matches-team-info w-6/12 text-white flex items-center justify-center">
-            <div class="matches-team-name mr-3 font-medium text-lg">Эсхата Онлайн (Бэкэнд)</div>
-            <div class="matches-team-shortname font-medium text-lg">EOB</div>
+            <div class="matches-team-name mr-3 font-medium md:text-lg">Эсхата Онлайн (Бэкэнд)</div>
+            <div class="matches-team-shortname font-medium md:text-lg">EOB</div>
           </div>
         </div>
       </div>
-      <span class="icon" [class.close]="item.isActive"></span>
+      <span class="icon mt-5" [class.close]="item.isActive"></span>
     </div>
     <div class="accordion-body flex items-center" [@detailExpand]="item.isActive ? 'expanded' : 'collapsed'">
       <div class="matches-tour w-1/7"></div>
       <div class="matches-past w-6/7">
         <div class="matches-team flex items-center py-2 ">
           <div class="matches-team-info w-6/12 text-white flex flex-col items-center justify-center">
-            <div class="matches-team-name mr-3 font-normal text-sm">Камол Хакимбаев</div>
-            <div class="matches-team-name mr-3 font-normal text-sm">Акмал Арифов</div>
+            <div class="matches-team-name mr-3 font-normal md:text-sm">Камол Хакимбаев</div>
+            <div class="matches-team-name mr-3 font-normal md:text-sm">Акмал Арифов</div>
           </div>
           <div class="font-bold text-2xl text-white w-14 text-center"></div>
           <div class="matches-team-info w-6/12 text-white flex items-center justify-center">
-            <div class="matches-team-name mr-3 font-normal text-sm"></div>
+            <div class="matches-team-name mr-3 font-normal md:text-sm"></div>
           </div>
         </div>
       </div>

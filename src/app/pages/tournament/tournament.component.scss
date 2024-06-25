@@ -61,3 +61,10 @@
 .tournament-league-text {
   color: $blue300;
 }
+
+@media (max-width: 670px) {
+  .tournament-matches-team-info {
+    padding: 0;
+    border: none;
+  }
+}

@@ -10,3 +10,15 @@
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 670px) {
+
+  .matches-tour-date,
+  .matches-team-name {
+    font-size: 14px;
+  }
+
+  .matches-team-shortname {
+    display: none;
+  }
+
+}

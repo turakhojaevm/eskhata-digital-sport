@@ -3,3 +3,29 @@
   width: 60px;
   background-color: transparent;
 }
+
+@media (max-width: 1024px) {
+
+  .tournament-view-shortname {
+    font-size: 1rem;
+    padding: 30px 0;
+    width: 40px;
+  }
+
+  .tournament-view-name,
+  .tournament-view-value {
+    font-size: 1rem;
+  }
+
+  .tournament-view-label {
+    font-size: 1rem;
+    width: 10rem
+  }
+}
+
+@media (max-width: 670px) {
+
+  .tournament-view-label {
+    width: 7rem
+  }
+}
