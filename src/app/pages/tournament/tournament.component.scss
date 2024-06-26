@@ -16,16 +16,27 @@
   }
 
   tbody {
-    tr > td {
-      padding: 12px 16px;
-      font-size: 1rem;
-      line-height: 1.5rem;
-      font-weight: 400;
+    background-image: url('../../../assets/images/tournament-result-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
-      text-align: center;
-      cursor: pointer;
-      &:first-child {
-        text-align: start;
+    tr {
+      &:not(:last-child) {
+        border-bottom: 2px solid $blue600;
+      }
+
+      td {
+        padding: 12px 16px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+
+        text-align: center;
+        cursor: pointer;
+
+        &:first-child {
+          text-align: start;
+        }
       }
     }
   }
@@ -38,11 +49,18 @@
 .tournament-matches-team-shortname {
   padding: 40px 0;
   width: 60px;
-  background-color: transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(208, 208, 208, 0), rgba(153, 153, 153, 0.1));
+  border-image: linear-gradient(rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.2));
 }
 
 .border-right {
   border-right: solid 1px $orange400;
+}
+
+.tournament-actives-players {
+  background-image: url('../../../assets/images/active-players-background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .tournament-actives-header {

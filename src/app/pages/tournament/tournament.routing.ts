@@ -12,5 +12,8 @@ export const TOURNAMENT_ROUTING: Routes = [
     path: ':id',
     loadComponent: (): Promise<typeof TournamentViewComponent> =>
       import('./tournament-view/tournament-view.component').then(m => m.TournamentViewComponent),
+    data: {
+      breadcrumb: 'Информация о команде',
+    },
   }
 ];
